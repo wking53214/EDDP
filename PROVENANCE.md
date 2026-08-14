@@ -15,64 +15,64 @@ Each of the eleven templated turns contributed two code artifacts — the user's
 
 | Turn | System name (per PART 2 / response) | Prompt artifact | Response artifact |
 |---|---|---|---|
-| 1 | Metric Assessment and Telemetry Dispatch Pipeline | `artifact_1.py` | `artifact_2.py` |
-| 2 | GAPS Kernel Multi-Layer Governance Engine | `artifact_3.py` | `artifact_4.py` |
-| 3 | Event-Sourced Clinical Governance and Ledger Engine | `artifact_5.py` | `artifact_6.py` |
-| 4 | PERCEIVE Autonomous Policy Enforcement and Governance Kernel | `artifact_7.py` | `artifact_8.py` |
-| 5 | OBSERVE Multi-Adapter Clinical Risk Engine | `artifact_9.py` | `artifact_10.py` |
-| 6 | GovernanceOS Unified Security Kernel | `artifact_11.py` | `artifact_12.py` |
-| 7 | Distributed Quorum Consensus and Deterministic State Governance Kernel | `artifact_13.py` | `artifact_14.py` |
-| 8 | WS3 Universal Observability and Telemetry Guardrail Engine | `artifact_15.py` | `artifact_16.py` |
-| 9 | Unified Clinical Governance and Capacity Orchestration System | `artifact_17.py` | `artifact_18.py` |
-| 10 | SOLVAR Predictive Behavior and Lyapunov Stability Governance Engine | `artifact_19.py` | `artifact_20.py` |
-| 14 | SOLVAR Predictive Behavior and Lyapunov Stability Governance Engine (cleanup pass) | *(none — identical to turn 10's; see "Duplication")* | `artifact_22.py` |
+| 1 | Metric Assessment and Telemetry Dispatch Pipeline | `metric_assessment_telemetry_dispatch_source.py` | `metric_assessment_telemetry_dispatch_adapter.py` |
+| 2 | GAPS Kernel Multi-Layer Governance Engine | `gaps_multilayer_governance_source.py` | `gaps_multilayer_governance_adapter.py` |
+| 3 | Event-Sourced Clinical Governance and Ledger Engine | `clinical_governance_ledger_source.py` | `clinical_governance_ledger_adapter.py` |
+| 4 | PERCEIVE Autonomous Policy Enforcement and Governance Kernel | `perceive_policy_enforcement_source.py` | `perceive_policy_enforcement_adapter.py` |
+| 5 | OBSERVE Multi-Adapter Clinical Risk Engine | `observe_clinical_risk_source.py` | `observe_clinical_risk_adapter.py` |
+| 6 | GovernanceOS Unified Security Kernel | `governance_os_security_source.py` | `governance_os_security_adapter.py` |
+| 7 | Distributed Quorum Consensus and Deterministic State Governance Kernel | `quorum_state_governance_source.py` | `quorum_state_governance_adapter.py` |
+| 8 | WS3 Universal Observability and Telemetry Guardrail Engine | `ws3_telemetry_guardrail_source.py` | `ws3_telemetry_guardrail_adapter.py` |
+| 9 | Unified Clinical Governance and Capacity Orchestration System | `clinical_capacity_orchestration_source.py` | `clinical_capacity_orchestration_adapter.py` |
+| 10 | SOLVAR Predictive Behavior and Lyapunov Stability Governance Engine | `solvar_stability_governance_source.py` | `solvar_stability_governance_adapter.py` |
+| 14 | SOLVAR Predictive Behavior and Lyapunov Stability Governance Engine (cleanup pass) | *(none — identical to turn 10's; see "Duplication")* | `solvar_stability_governance_cleanup.py` |
 
 Turns 11–13 contain no code and were not extracted; they are preserved in full inside `TRANSCRIPT.md`.
 
-None of the 21 files states its own filename inside its own text, so files are numbered `artifact_1.py` … `artifact_22.py` (skipping `artifact_21.py`, the discarded exact-duplicate prompt) in transcript order, per the fallback naming rule.
+None of the 21 files states its own filename inside its own text. The files are named by the documented system role plus artifact role: `_source` for the raw user payload, `_adapter` for the refactored response, and `_cleanup` for the final cleanup response. The exact duplicate prompt has no separate file.
 
 ## Whether the artifacts execute
 
 All 21 files were run once each, unmodified, with `python3` (system interpreter). The results are the most consistently successful of any archive in this series:
 
-**All eleven "PART 1" response files were tested.** Ten run to completion and print real, structured JSON output — `artifact_2.py`, `artifact_4.py`, `artifact_6.py`, `artifact_8.py`, `artifact_10.py`, `artifact_12.py`, `artifact_14.py`, `artifact_16.py`, `artifact_18.py`, and `artifact_20.py` all execute their bundled demonstration code and print a complete result object (e.g. `artifact_2.py` prints a dict ending `"composite_score": 0.84..., "dispatch_status": "TRANSMISSION_SUCCESSFUL", "uniqueness_ratio": 1.0`; several others print nested audit-hash/ledger structures). None of the ten writes any file to disk. The eleventh, `artifact_22.py` (turn 14's "CLEANED CODE PAYLOAD"), fails with `ModuleNotFoundError: No module named 'matplotlib'` at an `import matplotlib.pyplot as plt` line — a genuine third-party dependency not present in the environment used for this archival check, not a syntax or logic defect; no attempt was made to install it.
+**All eleven "PART 1" response files were tested.** Ten run to completion and print real, structured JSON output — `metric_assessment_telemetry_dispatch_adapter.py`, `gaps_multilayer_governance_adapter.py`, `clinical_governance_ledger_adapter.py`, `perceive_policy_enforcement_adapter.py`, `observe_clinical_risk_adapter.py`, `governance_os_security_adapter.py`, `quorum_state_governance_adapter.py`, `ws3_telemetry_guardrail_adapter.py`, `clinical_capacity_orchestration_adapter.py`, and `solvar_stability_governance_adapter.py` all execute their bundled demonstration code and print a complete result object (e.g. `metric_assessment_telemetry_dispatch_adapter.py` prints a dict ending `"composite_score": 0.84..., "dispatch_status": "TRANSMISSION_SUCCESSFUL", "uniqueness_ratio": 1.0`; several others print nested audit-hash/ledger structures). None of the ten writes any file to disk. The eleventh, `solvar_stability_governance_cleanup.py` (turn 14's "CLEANED CODE PAYLOAD"), fails with `ModuleNotFoundError: No module named 'matplotlib'` at an `import matplotlib.pyplot as plt` line — a genuine third-party dependency not present in the environment used for this archival check, not a syntax or logic defect; no attempt was made to install it.
 
-**Nine of the ten kept "TARGET PAYLOAD" prompt files fail with `SyntaxError: invalid syntax`** (`artifact_1.py`, `artifact_3.py`, `artifact_5.py`, `artifact_7.py`, `artifact_9.py`, `artifact_13.py`, `artifact_15.py`, `artifact_17.py`, `artifact_19.py`), consistent with the flattened, no-line-break pattern seen in the user's other archived raw pastes.
+**Nine of the ten kept "TARGET PAYLOAD" prompt files fail with `SyntaxError: invalid syntax`** (`metric_assessment_telemetry_dispatch_source.py`, `gaps_multilayer_governance_source.py`, `clinical_governance_ledger_source.py`, `perceive_policy_enforcement_source.py`, `observe_clinical_risk_source.py`, `quorum_state_governance_source.py`, `ws3_telemetry_guardrail_source.py`, `clinical_capacity_orchestration_source.py`, `solvar_stability_governance_source.py`), consistent with the flattened, no-line-break pattern seen in the user's other archived raw pastes.
 
-**One prompt file, `artifact_11.py` (turn 6), "runs" with no error and no output — but only because it is entirely swallowed as a single comment.** It begins with `# governance_os_full.py` and, like several files in the user's separately archived `FACTS` transcript, has no real line breaks anywhere; because a `#` comment runs to the end of the physical line and there is only one physical line, the entire file is inert. This was confirmed directly: parsing the file with Python's `ast.parse()` produces a module with an empty body (`len(tree.body) == 0`).
+**One prompt file, `governance_os_security_source.py` (turn 6), "runs" with no error and no output — but only because it is entirely swallowed as a single comment.** It begins with `# governance_os_full.py` and, like several files in the user's separately archived `FACTS` transcript, has no real line breaks anywhere; because a `#` comment runs to the end of the physical line and there is only one physical line, the entire file is inert. This was confirmed directly: parsing the file with Python's `ast.parse()` produces a module with an empty body (`len(tree.body) == 0`).
 
 ## Line and file counts
 
 | File | Lines | Characters |
 |---|---|---|
-| `artifact_1.py` | 0 (no newline characters) | 12,475 |
-| `artifact_2.py` | 259 | 11,138 |
-| `artifact_3.py` | 0 (no newline characters) | 14,318 |
-| `artifact_4.py` | 400 | 16,910 |
-| `artifact_5.py` | 0 (no newline characters) | 16,527 |
-| `artifact_6.py` | 308 | 12,605 |
-| `artifact_7.py` | 0 (no newline characters) | 36,375 |
-| `artifact_8.py` | 253 | 10,166 |
-| `artifact_9.py` | 0 (no newline characters) | 9,437 |
-| `artifact_10.py` | 291 | 12,056 |
-| `artifact_11.py` | 0 (no newline characters) | 11,700 |
-| `artifact_12.py` | 299 | 10,828 |
-| `artifact_13.py` | 0 (no newline characters) | 14,162 |
-| `artifact_14.py` | 310 | 12,397 |
-| `artifact_15.py` | 0 (no newline characters) | 6,295 |
-| `artifact_16.py` | 234 | 7,926 |
-| `artifact_17.py` | 0 (no newline characters) | 10,804 |
-| `artifact_18.py` | 301 | 10,307 |
-| `artifact_19.py` | 0 (no newline characters) | 33,137 |
-| `artifact_20.py` | 471 | 17,232 |
-| `artifact_22.py` | 990 | 39,084 |
+| `metric_assessment_telemetry_dispatch_source.py` | 0 (no newline characters) | 12,475 |
+| `metric_assessment_telemetry_dispatch_adapter.py` | 259 | 11,138 |
+| `gaps_multilayer_governance_source.py` | 0 (no newline characters) | 14,318 |
+| `gaps_multilayer_governance_adapter.py` | 400 | 16,910 |
+| `clinical_governance_ledger_source.py` | 0 (no newline characters) | 16,527 |
+| `clinical_governance_ledger_adapter.py` | 308 | 12,605 |
+| `perceive_policy_enforcement_source.py` | 0 (no newline characters) | 36,375 |
+| `perceive_policy_enforcement_adapter.py` | 253 | 10,166 |
+| `observe_clinical_risk_source.py` | 0 (no newline characters) | 9,437 |
+| `observe_clinical_risk_adapter.py` | 291 | 12,056 |
+| `governance_os_security_source.py` | 0 (no newline characters) | 11,700 |
+| `governance_os_security_adapter.py` | 299 | 10,828 |
+| `quorum_state_governance_source.py` | 0 (no newline characters) | 14,162 |
+| `quorum_state_governance_adapter.py` | 310 | 12,397 |
+| `ws3_telemetry_guardrail_source.py` | 0 (no newline characters) | 6,295 |
+| `ws3_telemetry_guardrail_adapter.py` | 234 | 7,926 |
+| `clinical_capacity_orchestration_source.py` | 0 (no newline characters) | 10,804 |
+| `clinical_capacity_orchestration_adapter.py` | 301 | 10,307 |
+| `solvar_stability_governance_source.py` | 0 (no newline characters) | 33,137 |
+| `solvar_stability_governance_adapter.py` | 471 | 17,232 |
+| `solvar_stability_governance_cleanup.py` | 990 | 39,084 |
 | `TRANSCRIPT.md` | 4,330 (identical line count to the source `.txt` file) | — |
 
 Total files in this repo: 23 (21 artifact files, `TRANSCRIPT.md`, `PROVENANCE.md`).
 
 ## Tests
 
-No tests exist for any of the 21 artifacts. No test files, test framework references, or `assert`-based test code appear anywhere in the source transcript. Each of the ten successfully-running response files contains an `if __name__ == "__main__":`-style demonstration block; the remaining files either have no entry point or (in `artifact_11.py`'s case) no parseable content at all.
+No tests exist for any of the 21 artifacts. No test files, test framework references, or `assert`-based test code appear anywhere in the source transcript. Each of the ten successfully-running response files contains an `if __name__ == "__main__":`-style demonstration block; the remaining files either have no entry point or (in `governance_os_security_source.py`'s case) no parseable content at all.
 
 ## Extraction: what was stripped
 
@@ -88,13 +88,13 @@ Only transport-layer wrapper text was removed; the code itself was copied byte-f
 
 ## Duplication
 
-One exact duplication was found: turn 14's `TARGET PAYLOAD` prompt is **byte-for-byte identical** to turn 10's (confirmed via `diff`; both 33,137 characters). This matches the transcript's own narrative — turn 13 asked for a cleanup-only prompt template, and turn 14 applied that new template to the same payload already supplied in turn 10, rather than pasting a new codebase. Only one copy was kept, as `artifact_19.py`; there is no `artifact_21.py` in this repo.
+One exact duplication was found: turn 14's `TARGET PAYLOAD` prompt is **byte-for-byte identical** to turn 10's (confirmed via `diff`; both 33,137 characters). This matches the transcript's own narrative — turn 13 asked for a cleanup-only prompt template, and turn 14 applied that new template to the same payload already supplied in turn 10, rather than pasting a new codebase. Only one copy was kept, as `solvar_stability_governance_source.py`; the duplicate prompt has no separate file in this repo.
 
 No other duplication was found among the remaining twenty kept artifacts — each of the other ten prompt/response pairs addresses a distinct, differently-named system.
 
 ## Things noticed but not fixed
 
-- `artifact_1.py`, `artifact_3.py`, `artifact_5.py`, `artifact_7.py`, `artifact_9.py`, `artifact_11.py`, `artifact_13.py`, `artifact_15.py`, `artifact_17.py`, and `artifact_19.py` (the raw user-pasted payloads) have no recoverable line/indentation structure in the source transcript; each was left as a single flattened line rather than being reformatted into conventionally indented Python.
-- `artifact_11.py` begins with a `#` comment and, having no real line breaks, is entirely inert when run — none of its code is ever parsed, let alone executed. This was not fixed or flagged with a warning inside the file; it is simply a fact about what running the file does, recorded here (the same phenomenon documented in the user's separately archived `FACTS` transcript).
-- `artifact_22.py` imports `matplotlib.pyplot`, a third-party package not present in the environment used to attempt execution. No attempt was made to install it or otherwise route around the resulting `ModuleNotFoundError`.
-- Turn 3's prompt (`artifact_5.py`) has no matching closing `]` bracket at the end of its `TARGET PAYLOAD: [...]` wrapper, unlike the six other bracket-wrapped prompts in this transcript. Nothing was trimmed from the end of this file to compensate; it was extracted exactly as far as the source prompt's own text extends.
+- `metric_assessment_telemetry_dispatch_source.py`, `gaps_multilayer_governance_source.py`, `clinical_governance_ledger_source.py`, `perceive_policy_enforcement_source.py`, `observe_clinical_risk_source.py`, `governance_os_security_source.py`, `quorum_state_governance_source.py`, `ws3_telemetry_guardrail_source.py`, `clinical_capacity_orchestration_source.py`, and `solvar_stability_governance_source.py` (the raw user-pasted payloads) have no recoverable line/indentation structure in the source transcript; each was left as a single flattened line rather than being reformatted into conventionally indented Python.
+- `governance_os_security_source.py` begins with a `#` comment and, having no real line breaks, is entirely inert when run — none of its code is ever parsed, let alone executed. This was not fixed or flagged with a warning inside the file; it is simply a fact about what running the file does, recorded here (the same phenomenon documented in the user's separately archived `FACTS` transcript).
+- `solvar_stability_governance_cleanup.py` imports `matplotlib.pyplot`, a third-party package not present in the environment used to attempt execution. No attempt was made to install it or otherwise route around the resulting `ModuleNotFoundError`.
+- Turn 3's prompt (`clinical_governance_ledger_source.py`) has no matching closing `]` bracket at the end of its `TARGET PAYLOAD: [...]` wrapper, unlike the six other bracket-wrapped prompts in this transcript. Nothing was trimmed from the end of this file to compensate; it was extracted exactly as far as the source prompt's own text extends.
