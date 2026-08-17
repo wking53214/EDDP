@@ -11,9 +11,10 @@
         "user_2"
       ],
       "message_count": 4242,
-      "transcript": "transcripts/copilot-activity-history.md",
-      "summary": "summaries/copilot-activity-history.md",
-      "source": "/home/wking53214/Downloads/copilot-activity-history.csv"
+      "transcript": "generated/transcripts/copilot-activity-history_transcript.md",
+      "summary": "generated/summaries/copilot-activity-history_summary.md",
+      "source": "/home/wking53214/Downloads/copilot-activity-history.csv",
+      "summary_ai": "generated/summaries/copilot-activity-history_summary_ai.md"
     },
     {
       "id": "8f6d27dd-3260-44d4-a199-196fea96836a",
@@ -22,9 +23,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/8f6d27dd-3260-44d4-a199-196fea96836a.md",
-      "summary": "summaries/8f6d27dd-3260-44d4-a199-196fea96836a.md",
-      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/8f6d27dd-3260-44d4-a199-196fea96836a_transcript.md",
+      "summary": "generated/summaries/8f6d27dd-3260-44d4-a199-196fea96836a_summary.md",
+      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/8f6d27dd-3260-44d4-a199-196fea96836a_summary_ai.md"
     },
     {
       "id": "bd7a4ca2-a513-4669-8df5-ae3f74167561",
@@ -33,9 +35,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/bd7a4ca2-a513-4669-8df5-ae3f74167561.md",
-      "summary": "summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561.md",
-      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/bd7a4ca2-a513-4669-8df5-ae3f74167561_transcript.md",
+      "summary": "generated/summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561_summary.md",
+      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561_summary_ai.md"
     },
     {
       "id": "55fcc9bf-4f0e-42e5-87d2-c6ab32971f30",
@@ -44,9 +47,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30.md",
-      "summary": "summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30.md",
-      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_transcript.md",
+      "summary": "generated/summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_summary.md",
+      "source": "/home/wking53214/Downloads/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_summary_ai.md"
     },
     {
       "id": "history",
@@ -55,9 +59,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -66,9 +71,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -77,9 +83,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -88,9 +95,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -99,9 +107,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -110,9 +119,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -121,9 +131,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -132,9 +143,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -143,9 +155,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -154,9 +167,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -165,9 +179,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -176,9 +191,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -187,9 +203,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -198,9 +215,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -209,9 +227,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -220,9 +239,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -231,9 +251,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -242,9 +263,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -253,9 +275,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -264,9 +287,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -275,9 +299,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -286,9 +311,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -297,9 +323,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -308,9 +335,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -319,9 +347,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -330,9 +359,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -341,9 +371,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -352,9 +383,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -363,9 +395,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -374,9 +407,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -385,9 +419,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -396,9 +431,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -407,9 +443,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -418,9 +455,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -429,9 +467,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -440,9 +479,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -451,9 +491,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -462,9 +503,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -473,9 +515,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -484,9 +527,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -495,9 +539,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -506,9 +551,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -517,9 +563,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -528,9 +575,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -539,9 +587,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -550,9 +599,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -561,9 +611,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -572,9 +623,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -583,9 +635,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -594,9 +647,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -605,9 +659,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -616,9 +671,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -627,9 +683,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -638,9 +695,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "history",
@@ -649,9 +707,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/history.md",
-      "summary": "summaries/history.md",
-      "source": "/home/wking53214/.codex/history.jsonl"
+      "transcript": "generated/transcripts/history_transcript.md",
+      "summary": "generated/summaries/history_summary.md",
+      "source": "/home/wking53214/.codex/history.jsonl",
+      "summary_ai": "generated/summaries/history_summary_ai.md"
     },
     {
       "id": "8f6d27dd-3260-44d4-a199-196fea96836a",
@@ -660,9 +719,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/8f6d27dd-3260-44d4-a199-196fea96836a.md",
-      "summary": "summaries/8f6d27dd-3260-44d4-a199-196fea96836a.md",
-      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/8f6d27dd-3260-44d4-a199-196fea96836a_transcript.md",
+      "summary": "generated/summaries/8f6d27dd-3260-44d4-a199-196fea96836a_summary.md",
+      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/8f6d27dd-3260-44d4-a199-196fea96836a_summary_ai.md"
     },
     {
       "id": "bd7a4ca2-a513-4669-8df5-ae3f74167561",
@@ -671,9 +731,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/bd7a4ca2-a513-4669-8df5-ae3f74167561.md",
-      "summary": "summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561.md",
-      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/bd7a4ca2-a513-4669-8df5-ae3f74167561_transcript.md",
+      "summary": "generated/summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561_summary.md",
+      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/bd7a4ca2-a513-4669-8df5-ae3f74167561_summary_ai.md"
     },
     {
       "id": "55fcc9bf-4f0e-42e5-87d2-c6ab32971f30",
@@ -682,9 +743,10 @@
       "end_time": "",
       "participants": [],
       "message_count": 1,
-      "transcript": "transcripts/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30.md",
-      "summary": "summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30.md",
-      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json"
+      "transcript": "generated/transcripts/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_transcript.md",
+      "summary": "generated/summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_summary.md",
+      "source": "/home/wking53214/ChatGPT_History/Data_sets/9dd46fbb714f1f9785d2cdc149936511ceefa302fc29cab43a93562b5e86534c-2026-08-16-15-49-35-1555a799ad124926b19f125fd83678a0/message_feedback.json",
+      "summary_ai": "generated/summaries/55fcc9bf-4f0e-42e5-87d2-c6ab32971f30_summary_ai.md"
     },
     {
       "id": "copilot-activity-history",
@@ -696,9 +758,10 @@
         "user_2"
       ],
       "message_count": 4242,
-      "transcript": "transcripts/copilot-activity-history.md",
-      "summary": "summaries/copilot-activity-history.md",
-      "source": "/home/wking53214/copilot_history/data/copilot-activity-history.csv"
+      "transcript": "generated/transcripts/copilot-activity-history_transcript.md",
+      "summary": "generated/summaries/copilot-activity-history_summary.md",
+      "source": "/home/wking53214/copilot_history/data/copilot-activity-history.csv",
+      "summary_ai": "generated/summaries/copilot-activity-history_summary_ai.md"
     },
     {
       "id": "copilot-activity-history_head100",
@@ -709,9 +772,10 @@
         "user_1"
       ],
       "message_count": 1,
-      "transcript": "transcripts/copilot-activity-history_head100.md",
-      "summary": "summaries/copilot-activity-history_head100.md",
-      "source": "/home/wking53214/copilot_history/data/copilot-activity-history_head100.csv"
+      "transcript": "generated/transcripts/copilot-activity-history_head100_transcript.md",
+      "summary": "generated/summaries/copilot-activity-history_head100_summary.md",
+      "source": "/home/wking53214/copilot_history/data/copilot-activity-history_head100.csv",
+      "summary_ai": "generated/summaries/copilot-activity-history_head100_summary_ai.md"
     }
   ]
 }
